@@ -1,2 +1,2 @@
 # roblox-games-and-scripts
-Contains scripts to some of my Roblox games
+This is a collection of games and scripts that I have created.

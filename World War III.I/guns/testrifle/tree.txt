@@ -1,0 +1,16 @@
+[DEPRECATED RIFLE]
+
+TestRifle: tool
+    - fire: sound
+    - reload: sound
+    - CanReload: BoolValue (true)
+    - CanShoot: BoolValue (true)
+        - OnFalse (localscript)
+    - ammo: IntValue (7)
+        - rounds: IntValue (7)
+    - damage: IntValue (40)
+        - headshot: IntValue (200)
+    - reloadtime: IntValue (2)
+    - gun: localscript
+        - GunFunctions: modulescript
+    - Handle: part
